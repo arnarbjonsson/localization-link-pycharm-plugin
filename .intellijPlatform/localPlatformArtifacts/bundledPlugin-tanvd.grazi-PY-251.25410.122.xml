@@ -1,0 +1,16 @@
+<ivy-module version="2.0">
+  <info organisation="bundledPlugin" module="tanvd.grazi" revision="PY-251.25410.122"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="grazie" ext="jar" conf="default" url="plugins/grazie/lib"/>
+  </publications>
+  <dependencies>
+    <dependency org="bundledModule" name="intellij.platform.vcs.impl" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="com.intellij.modules.json" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="org.intellij.plugins.markdown" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="com.intellij.properties" rev="PY-251.25410.122"/>
+    <dependency org="bundledModule" name="intellij.yaml.backend" rev="PY-251.25410.122"/>
+  </dependencies>
+</ivy-module>

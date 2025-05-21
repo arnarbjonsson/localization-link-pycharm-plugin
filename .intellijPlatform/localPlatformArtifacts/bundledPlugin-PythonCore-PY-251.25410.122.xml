@@ -1,0 +1,23 @@
+<ivy-module version="2.0">
+  <info organisation="bundledPlugin" module="PythonCore" revision="PY-251.25410.122"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="python-ce" ext="jar" conf="default" url="plugins/python-ce/lib"/>
+    <artifact name="python-common" ext="jar" conf="default" url="plugins/python-ce/lib"/>
+  </publications>
+  <dependencies>
+    <dependency org="bundledModule" name="intellij.libraries.ktor.client" rev="PY-251.25410.122"/>
+    <dependency org="bundledModule" name="intellij.libraries.ktor.client.cio" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="com.intellij.modules.json" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="org.toml.lang" rev="PY-251.25410.122"/>
+    <dependency org="bundledModule" name="intellij.python.community.plugin.impl" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="com.intellij.copyright" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="training" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="tanvd.grazi" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="org.intellij.intelliLang" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="org.intellij.plugins.markdown" rev="PY-251.25410.122"/>
+    <dependency org="bundledPlugin" name="org.jetbrains.plugins.terminal" rev="PY-251.25410.122"/>
+  </dependencies>
+</ivy-module>

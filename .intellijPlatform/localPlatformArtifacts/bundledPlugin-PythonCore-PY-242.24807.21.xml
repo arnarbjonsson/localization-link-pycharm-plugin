@@ -1,0 +1,20 @@
+<ivy-module version="2.0">
+  <info organisation="bundledPlugin" module="PythonCore" revision="PY-242.24807.21"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="python-ce" ext="jar" conf="default" url="plugins/python-ce/lib"/>
+    <artifact name="python-common" ext="jar" conf="default" url="plugins/python-ce/lib"/>
+  </publications>
+  <dependencies>
+    <dependency org="bundledPlugin" name="org.toml.lang" rev="PY-242.24807.21"/>
+    <dependency org="bundledModule" name="intellij.python.community.plugin.impl" rev="PY-242.24807.21"/>
+    <dependency org="bundledPlugin" name="com.intellij.copyright" rev="PY-242.24807.21"/>
+    <dependency org="bundledPlugin" name="training" rev="PY-242.24807.21"/>
+    <dependency org="bundledPlugin" name="tanvd.grazi" rev="PY-242.24807.21"/>
+    <dependency org="bundledPlugin" name="org.intellij.intelliLang" rev="PY-242.24807.21"/>
+    <dependency org="bundledPlugin" name="org.intellij.plugins.markdown" rev="PY-242.24807.21"/>
+    <dependency org="bundledPlugin" name="org.jetbrains.plugins.terminal" rev="PY-242.24807.21"/>
+  </dependencies>
+</ivy-module>
