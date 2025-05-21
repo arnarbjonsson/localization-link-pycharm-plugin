@@ -1,5 +1,6 @@
 .gradle
 build/
+!build/libs/localization-link-pycharm-plugin-1.0-SNAPSHOT.jar
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
