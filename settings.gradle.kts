@@ -1,1 +1,1 @@
-rootProject.name = "demo-link-clicker"
+rootProject.name = "localization-link-pycharm-plugin"
